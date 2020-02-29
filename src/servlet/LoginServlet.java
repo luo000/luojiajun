@@ -23,6 +23,7 @@ public class LoginServlet extends HttpServlet {
 
         HttpSession session = req.getSession();
 
+
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
