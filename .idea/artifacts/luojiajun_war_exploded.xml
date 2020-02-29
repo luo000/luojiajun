@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="luojiajun:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/luojiajun_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="luojiajun" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/dev/mysql-connector-java-8.0.15.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="luojiajun/web/Web" />
+    </root>
+  </artifact>
+</component>
